@@ -1,0 +1,39 @@
+# macOS system files
+.DS_Store
+
+# Python virtual environments
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Chainlit logs and cache
+.chainlit/
+logs/
+*.log
+
+# Jupyter notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# OS and editor-specific files
+Thumbs.db
+.idea/
+.files/
+*.swp
+*.swo
+
+# Dependency files
+*.lock
+pip-log.txt
+poetry.lock
+
+# Ignore environment variables or secrets (ensure credentials are not committed)
+.env
+.env.local
+.env.*.local
